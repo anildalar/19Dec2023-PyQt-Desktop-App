@@ -2,8 +2,20 @@
 import sys # sys is a builtin module
 import requests # requests is a 3rd party module
 import requests1 # requests1 is userDefined module
-from PyQt6.QtWidgets import QApplication, QMainWindow, QHBoxLayout, QVBoxLayout,QGridLayout, QPushButton,QLabel, QWidget, QLineEdit
-from PyQt6.QtGui import QIcon # PyQt6 is a 3rd party module
+from PyQt6.QtWidgets import QApplication, QMainWindow, QHBoxLayout, QVBoxLayout,QGridLayout, QPushButton,QLabel, QWidget, QLineEdit, QMessageBox
+from PyQt6.QtGui import QIcon # PyQt6 is a 3rd party module,
+
+
+#1. Function defination is one time process
+def anil(msg): # msg is a formal arguement
+    co = QMessageBox()
+    co.setText(msg)
+    co.exec()
+    pass
+
+
+
+
 
 #co = ClassName(actualArgument will go inside constructor)
 app = QApplication(sys.argv)
@@ -47,6 +59,7 @@ layout.addWidget(button1,4,0)
 window.setLayout(layout)
 
 
+
 def sendData():
     print("Inside sendData function")
     payload = {
@@ -63,7 +76,13 @@ def sendData():
     #response1 = requests1.post('url1',json='payload') # actualarg1,actualarg2
     #print(response1)
     response = requests.post(api_url, json=payload)
-    
+    # co.member
+    # co.propertyName
+    if response.status_code == 200:
+        #2. Function calling is many time process
+        anil("Data Saved successfully")
+    else:
+        anil("Data Not Saved successfully")
     pass
 
 

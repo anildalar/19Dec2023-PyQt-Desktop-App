@@ -1,25 +1,19 @@
-class SecondClass():
-    
-    
-    #.3 
-    def addMenu(self,menuTitle):
-        print("Calculator")
-        pass
-    pass
-class Anil():
-    #1.
-    
+class A:
+    #.1 
+    name=""
+    address=""
+    surname=""
+    status_code=200
     #2
     
     #3
-    def menuBar(self):
-        #print("MenuBar is called")
-        co2 = SecondClass()
-        return co2
+    def hello(self):
         pass
     pass
 
 
-co = Anil()
-mb = co.menuBar()
-print(mb.addMenu("Calcultor"))
+co = A()
+
+print(type(A))
+print(type(co))
+print(dir(co))
