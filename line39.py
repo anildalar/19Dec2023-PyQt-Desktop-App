@@ -1,5 +1,12 @@
+class Parent:
+    pass
+
 def anil():
     
     # Every function return someting
-    return 'Hello'
+    ceo = Parent()
+    return ceo
     pass
+
+
+anil()

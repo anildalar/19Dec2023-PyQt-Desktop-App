@@ -24,8 +24,8 @@ class CalculatorApp(QWidget):
         buttons = [ '7', '8', '9', '/','4', '5', '6', '*','1', '2', '3', '-','0', '.', '=', '+']
 
         row, col = 1, 0 # these are all  local varible
-        for button_text in buttons:
-            button = self.create_button(button_text)
+        for button in buttons: # for singular in plural:
+            button = self.create_button(button)
             button.clicked.connect(self.handle_button_click)
             layout.addWidget(button, row, col)
             #layout.addWidget(button, y, x)
@@ -36,7 +36,9 @@ class CalculatorApp(QWidget):
 
         self.setLayout(layout)
 
-    def create_button(self, text):
+    def create_button(self, text): #this function returning a co
+        
+        # every function return somethign
         return QPushButton(text, self)
 
     def handle_button_click(self):
