@@ -345,80 +345,385 @@
   ('_py_abc',
    'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
-   'PYMODULE'),
   ('subprocess',
    'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py',
    'PYMODULE'),
   ('signal',
    'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\signal.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE'),
   ('PyQt6',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\__init__.py',
+   'PYMODULE'),
+  ('requests1', 'D:\\PyQT Apps\\19Dec2023\\requests1.py', 'PYMODULE'),
+  ('requests',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('requests.models',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('idna',
+   'D:\\PyQT Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'D:\\PyQT Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'D:\\PyQT Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'D:\\PyQT Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\queue.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   'D:\\PyQT Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'D:\\PyQT Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\platform.py',
    'PYMODULE')],
  [('python312.dll',
    'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
    'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
    'D:\\PyQT '
@@ -467,57 +772,73 @@
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\QtWidgets.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
+  ('_queue.pyd',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp312-win_amd64.pyd',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp312-win_amd64.pyd',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\charset_normalizer\\md.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Svg.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
    'D:\\PyQT '
@@ -526,10 +847,6 @@
   ('PyQt6\\Qt6\\bin\\Qt6Core.dll',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Core.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
    'D:\\PyQT '
@@ -546,6 +863,14 @@
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
@@ -560,6 +885,9 @@
   ('python3.dll',
    'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\python3.dll',
    'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\himsu\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libssl-3.dll',
+   'BINARY'),
   ('ucrtbase.dll',
    'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\ucrtbase.dll',
    'BINARY'),
@@ -567,37 +895,25 @@
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('api-ms-win-core-synch-l1-2-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-synch-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
@@ -607,6 +923,66 @@
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-sysinfo-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
@@ -615,118 +991,22 @@
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-console-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk-18.0.2.1\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY')],
  [],
  [],
  [('base_library.zip',
    'D:\\PyQT Apps\\19Dec2023\\build\\idmregistration\\base_library.zip',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_he.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
    'D:\\PyQT '
@@ -736,303 +1016,358 @@
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
    'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_en.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_es.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_de.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
-   'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_sk.qm',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
    'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
    'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_it.qm',
-   'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_gl.qm',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
    'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_de.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
    'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_es.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_en.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
    'D:\\PyQT '
    'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
    'D:\\PyQT '
-   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_it.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_he.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'D:\\PyQT '
+   'Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'D:\\PyQT Apps\\19Dec2023\\oklabsenv\\Lib\\site-packages\\certifi\\py.typed',
    'DATA')])

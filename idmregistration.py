@@ -1,10 +1,23 @@
 #import moduleName
 import sys # sys is a builtin module
+import uuid # uuid is a builtin python module
 import requests # requests is a 3rd party module
 import requests1 # requests1 is userDefined module
 from PyQt6.QtWidgets import QApplication, QMainWindow, QHBoxLayout, QVBoxLayout,QGridLayout, QPushButton,QLabel, QWidget, QLineEdit, QMessageBox
 from PyQt6.QtGui import QIcon # PyQt6 is a 3rd party module,
 
+
+# 1 Function defination
+def anilLaptopHardwareId():
+   #ceo         = module.ClassName(keyWordArgument=Value)
+    hardware_id = uuid.UUID(int=uuid.getnode()).hex[-12:]
+    # Every function return something
+    return hardware_id
+    pass
+
+
+#2. Function callingg
+#print(anilLaptopHardwareId())
 
 #1. Function defination is one time process
 def anil(msg): # msg is a formal arguement
@@ -62,28 +75,40 @@ window.setLayout(layout)
 
 def sendData():
     print("Inside sendData function")
-    payload = {
-        "data": {
-            "firstname": fname_input.text(),
-            "lastname": lname_input.text(),
-            "email": email_input.text(),
-            "sno": snumber_input.text()
-        }
-    }
-
+    hardId = anilLaptopHardwareId()
     api_url = 'http://localhost:1337/api/registrations'
-    #module.member
-    #response1 = requests1.post('url1',json='payload') # actualarg1,actualarg2
-    #print(response1)
-    response = requests.post(api_url, json=payload)
+    response2 = requests.get(api_url+f'?filters[hardwareId][$eq]={hardId}')
     # co.member
     # co.propertyName
-    if response.status_code == 200:
-        #2. Function calling is many time process
-        anil("Data Saved successfully")
+    json_data = response2.json()
+    print("JSON Data:", json_data["meta"]["pagination"]["total"])
+    if json_data["meta"]["pagination"]["total"]==0:
+        payload = {
+            "data": {
+                "firstname": fname_input.text(),
+                "lastname": lname_input.text(),
+                "email": email_input.text(),
+                "serial_number": snumber_input.text(),
+                "hardwareId": anilLaptopHardwareId(),
+            }
+        }
+
+        #module.member
+        #response1 = requests1.post('url1',json='payload') # actualarg1,actualarg2
+        #print(response1)
+        response = requests.post(api_url, json=payload)
+        # co.member
+        # co.propertyName
+        if response.status_code == 200:
+            #2. Function calling is many time process
+            anil("Data Saved successfully")
+        else:
+            anil("Data Not Saved successfully")
+        pass
     else:
-        anil("Data Not Saved successfully")
-    pass
+        co2 = QMessageBox()
+        co2.setText(f"User is already Register with hardwareid {hardId}")
+        co2.exec()
 
 
 #widget.signal.connect(slot_function)
